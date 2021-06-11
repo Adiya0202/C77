@@ -1,0 +1,14 @@
+var first="Adiya ";
+var last="Sawhney";
+var full=first.concat(last);
+console.log(full);
+document.getElementById("eg1").innerHTML=full;
+var fruits=["Mango", "Grapes", "Apple", "Leechee", "Kiwi"];
+fruits.push("Watermelon");
+console.log(fruits);
+document.getElementById("eg2").innerHTML=fruits;
+var numbers=["9", "5", "37", "38", "69"];
+var maximum=Math.max.apply(Math,numbers);
+fruits.sort();
+console.log(fruits);
+document.getElementById("eg3").innerHTML=fruits;
